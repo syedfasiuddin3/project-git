@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agentic AI | Intelligent Automation</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body {
+  font-family: Arial, sans-serif;
+  background:#080d1c;
+  color:white;
+  line-height:1.6;
+}
+nav {
+  display:flex; justify-content:space-between;
+  align-items:center; padding:22px 8%;
+  background:#0c1325;
+  position:sticky; top:0; z-index:10;
+}
+.logo {font-size:24px;font-weight:bold;color:#65a7ff;}
+nav a {color:white;text-decoration:none;margin-left:24px;}
+nav a:hover {color:#65a7ff;}
+.hero {
+  min-height:85vh;display:flex;flex-direction:column;
+  align-items:center;justify-content:center;text-align:center;
+  padding:70px 20px;
+  background:radial-gradient(circle at center,#192e60,#080d1c 65%);
+}
+.hero h1 {font-size:clamp(38px,6vw,65px);line-height:1.15;}
+.hero h1 span {color:#65a7ff;}
+.hero p {max-width:650px;color:#b8c5dc;margin:24px 0;font-size:18px;}
+.btn {
+  display:inline-block;background:#347ff0;color:white;
+  padding:14px 28px;border-radius:8px;
+  text-decoration:none;font-weight:bold;
+  transition:.2s;
+}
+.btn:hover {background:#185bc0;transform:translateY(-2px);}
+section {padding:75px 8%;text-align:center;}
+h2 {font-size:34px;margin-bottom:18px;}
+.subtitle {color:#aab8d0;max-width:700px;margin:0 auto 40px;}
+.cards {
+  display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:22px;margin-top:35px;
+}
+.card {
+  background:#111d34;border:1px solid #263b60;
+  padding:30px 22px;border-radius:14px;
+  text-align:left;transition:.25s;
+}
+.card:hover {transform:translateY(-6px);border-color:#65a7ff;}
+.card .icon {font-size:35px;margin-bottom:15px;}
+.card h3 {margin-bottom:12px;color:#80b5ff;}
+.card p {color:#b6c2d7;font-size:15px;}
+.steps {max-width:750px;margin:auto;text-align:left;}
+.step {
+  padding:20px;margin:15px 0;
+  background:#111d34;border-left:4px solid #65a7ff;
+  border-radius:8px;
+}
+.step h3 {color:#80b5ff;}
+.cta {background:#111d34;}
+footer {padding:25px;text-align:center;color:#8c9bb5;background:#060a14;}
+@media(max-width:600px){
+ nav {padding:18px 5%;flex-direction:column;gap:12px;}
+ nav a {margin:0 7px;font-size:13px;}
+ section {padding:55px 6%;}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">✦ Agentic AI</div>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <h1>The Future is <span>Agentic AI</span></h1>
+  <p>
+    Intelligent AI agents that think, plan, make decisions,
+    and take action to accomplish complex tasks automatically.
+  </p>
+  <a href="#about" class="btn">Explore Agentic AI →</a>
+</header>
+
+<section id="about">
+  <h2>What is Agentic AI?</h2>
+  <p class="subtitle">
+    Agentic AI is a new generation of artificial intelligence
+    that can independently work toward goals, use tools,
+    solve problems, and adapt to changing situations.
+  </p>
+  <div class="cards">
+    <div class="card">
+      <div class="icon">🧠</div>
+      <h3>Think</h3>
+      <p>Understands goals and analyzes information to make intelligent decisions.</p>
+    </div>
+    <div class="card">
+      <div class="icon">📋</div>
+      <h3>Plan</h3>
+      <p>Breaks complex tasks into smaller steps and creates action plans.</p>
+    </div>
+    <div class="card">
+      <div class="icon">⚡</div>
+      <h3>Act</h3>
+      <p>Uses tools and systems to execute tasks and achieve objectives.</p>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <h2>Key Features</h2>
+  <p class="subtitle">Discover what makes Agentic AI powerful.</p>
+  <div class="cards">
+    <div class="card">
+      <div class="icon">🤖</div>
+      <h3>Autonomy</h3>
+      <p>Works independently within defined goals and permissions.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🔄</div>
+      <h3>Adaptability</h3>
+      <p>Adjusts its approach when situations or requirements change.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🔗</div>
+      <h3>Tool Integration</h3>
+      <p>Connects with APIs, applications, databases, and other tools.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎯</div>
+      <h3>Goal Oriented</h3>
+      <p>Focuses on completing objectives through multiple steps.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>How Does It Work?</h2>
+  <p class="subtitle">A simple Agentic AI workflow.</p>
+  <div class="steps">
+    <div class="step">
+      <h3>01. Receive a Goal</h3>
+      <p>The user provides an objective or task.</p>
+    </div>
+    <div class="step">
+      <h3>02. Analyze & Plan</h3>
+      <p>The AI understands the task and decides what steps are needed.</p>
+    </div>
+    <div class="step">
+      <h3>03. Execute Actions</h3>
+      <p>The agent uses available tools to perform the planned actions.</p>
+    </div>
+    <div class="step">
+      <h3>04. Evaluate Results</h3>
+      <p>It checks the results and adjusts its actions if necessary.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Real-World Applications</h2>
+  <div class="cards">
+    <div class="card">
+      <div class="icon">🏢</div>
+      <h3>Business</h3>
+      <p>Automates workflows, reports, and business processes.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🏥</div>
+      <h3>Healthcare</h3>
+      <p>Supports administrative tasks and information management.</p>
+    </div>
+    <div class="card">
+      <div class="icon">🎓</div>
+      <h3>Education</h3>
+      <p>Supports personalized learning and educational assistance.</p>
+    </div>
+    <div class="card">
+      <div class="icon">💻</div>
+      <h3>Technology</h3>
+      <p>Assists with software development, testing, and troubleshooting.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Ready for the AI Revolution?</h2>
+  <p class="subtitle">
+    Explore how intelligent AI agents can transform the way we work.
+  </p>
+  <a href="mailto:hello@example.com" class="btn">Get in Touch</a>
+</section>
+
+<footer>
+  <p>© 2026 Agentic AI. All Rights Reserved.</p>
+  <p>Designed for the future of intelligent automation.</p>
+</footer>
+
+</body>
+</html>
